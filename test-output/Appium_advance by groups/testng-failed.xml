@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Appium_advance by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-high priortiy(failed)">
+    <groups>
+      <run>
+        <include name="high priortiy"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="MyClass">
+        <methods>
+          <include name="TestAdditionProcess"/>
+          <include name="PowerFunctionTest"/>
+        </methods>
+      </class> <!-- MyClass -->
+    </classes>
+  </test> <!-- GRP-high priortiy(failed) -->
+</suite> <!-- Failed suite [Appium_advance by groups] -->
